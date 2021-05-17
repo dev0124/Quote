@@ -1,0 +1,19 @@
+.columnCSS {
+    font-style: italic;
+}
+
+.authorCss {
+    font-weight: bold;
+}
+
+.buttonGroupCss {
+    display: none;
+}
+
+.buttonGroupCss:hover {
+    display: block;
+}
+
+.columnCSS:hover ~ .buttonGroupCss {
+    display: block;
+}
